@@ -1,8 +1,8 @@
 name: data-product-project
 account: gosaldar
 server: shinyapps.io
-bundleId: 274979
+bundleId: 275006
 url: https://gosaldar.shinyapps.io/data-product-project
-when: 1443346314.5606
+when: 1443350424.82846
 asMultiple: FALSE
 asStatic: FALSE
