@@ -29,6 +29,17 @@ User can change or select the following parameters:
 
 The result can will shown either **by state** or **by year**.
 
+
+Data
+========================================================
+The original data has been transformed into a format where it can be used easily for the application. Below is an example of my data.
+```{r}
+library(data.table)
+dt <- fread('data/events.csv')
+head(dt,2)
+```
+
+
 Source Code
 ========================================================
 

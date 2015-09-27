@@ -29,6 +29,24 @@ User can change or select the following parameters:
 
 The result can will shown either **by state** or **by year**.
 
+
+Data
+========================================================
+The original data has been transformed into a format where it can be used easily for the application. Below is an example of my data.
+
+```r
+library(data.table)
+dt <- fread('data/events.csv')
+head(dt,2)
+```
+
+```
+   YEAR   STATE  EVTYPE COUNT FATALITIES INJURIES PROPDMG CROPDMG
+1: 1950 alabama TORNADO     2          0       15  0.0275       0
+2: 1951 alabama TORNADO     5          0       13  0.0350       0
+```
+
+
 Source Code
 ========================================================
 

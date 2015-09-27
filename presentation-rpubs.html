@@ -795,6 +795,24 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
+<h3>Data</h3>
+<div class="slideContent" >
+<p>The original data has been transformed into a format where it can be used easily for the application. Below is an example of my data.</p>
+
+<pre><code class="r">library(data.table)
+dt &lt;- fread(&#39;data/events.csv&#39;)
+head(dt,2)
+</code></pre>
+
+<pre><code>   YEAR   STATE  EVTYPE COUNT FATALITIES INJURIES PROPDMG CROPDMG
+1: 1950 alabama TORNADO     2          0       15  0.0275       0
+2: 1951 alabama TORNADO     5          0       13  0.0350       0
+</code></pre>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
 <h3>Source Code</h3>
 <div class="slideContent" >
 <p>The source-code of the application and this presentation can be found in my <a href="https://github.com/gosaldar/data-product-project">Github repository</a></p>
